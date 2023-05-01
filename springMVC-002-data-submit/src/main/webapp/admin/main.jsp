@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: yuantengyan
-  Date: 4/29/23
-  Time: 4:53 PM
+  Date: 5/1/23
+  Time: 3:24 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<a href="${pageContext.request.contextPath}/user/demo.action">access to server</a>
+  <h2>main..</h2>
 </body>
 </html>

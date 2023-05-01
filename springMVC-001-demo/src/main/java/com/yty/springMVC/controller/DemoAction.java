@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @since 1.0
  **/
 @Controller
+@RequestMapping("/user")
 public class DemoAction {
     /*
     Action规范
