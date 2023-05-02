@@ -171,4 +171,68 @@
 
 5. 手工提取数据
 
-   1. 
+   ```java
+       @RequestMapping("dataSubmitSelf.action")
+       public String Self(HttpServletRequest request){
+           String name = request.getParameter("name");
+           int age = Integer.parseInt(request.getParameter("age"));
+           System.out.println(name);
+           System.out.println(age + 100);
+           return "main";
+       }
+   ```
+
+
+
+### SpringMVC中文配置
+
+在web.xml文件中设置中文过滤器
+
+```xml
+<filter>
+        <filter-name>encode</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+<!--            private String encoding;
+                private boolean forceRequestEncoding;
+                private boolean forceResponseEncoding;-->
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceRequestEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceResponseEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+```
+
+源码如下：
+
+```java
+public class CharacterEncodingFilter extends OncePerRequestFilter {
+    @Nullable
+    private String encoding;
+    private boolean forceRequestEncoding;
+    private boolean forceResponseEncoding;
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+        String encoding = this.getEncoding();
+        if (encoding != null) {
+            if (this.isForceRequestEncoding() || request.getCharacterEncoding() == null) {
+                request.setCharacterEncoding(encoding);
+            }
+
+            if (this.isForceResponseEncoding()) {
+                response.setCharacterEncoding(encoding);
+            }
+        }
+
+        filterChain.doFilter(request, response);
+    }
+}
+   
+```
+

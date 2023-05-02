@@ -29,7 +29,7 @@
     </form>
 
 <h2>object data submit</h2>
-    <form action="${pageContext.request.contextPath}/dataSubmitObjectData.action">
+    <form action="${pageContext.request.contextPath}/dataSubmitObjectData.action" method="post">
         name:<input type="text" name="name"><br>
         age:<input type="text" name="age"><br>
         <input type="submit" value="submit">
