@@ -32,5 +32,22 @@
           });
       }
     </script>
+
+    <a href="javascript:getOneStu()">get a student</a>
+    <div id="myStu">wait for one student</div>
+    <script type="text/javascript">
+        function getOneStu() {
+            $.ajax({
+                url: "${pageContext.request.contextPath}/oneStudent.action",
+                type: "get",
+                dataType: "json",
+                success: function (student){
+                    var s = "";
+                    s += student.name + "----" + student.age;
+                    $("#myStu").html(s);
+                }
+            });
+        }
+    </script>
 </body>
 </html>

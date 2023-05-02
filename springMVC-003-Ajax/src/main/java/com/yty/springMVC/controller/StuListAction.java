@@ -24,4 +24,10 @@ public class StuListAction {
         stuList.add(new Student("xcj", 25));
         return stuList; //Spring MVC convert it to json array
     }
+
+    @RequestMapping("/oneStudent.action")
+    @ResponseBody
+    public Student student(){
+        return new Student("申益彬", 26);
+    }
 }
