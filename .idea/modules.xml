@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC-001-demo.iml" filepath="$PROJECT_DIR$/springMVC-001-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC-002-data-submit/springMVC-002-data-submit.iml" filepath="$PROJECT_DIR$/springMVC-002-data-submit/springMVC-002-data-submit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC-003-Ajax.iml" filepath="$PROJECT_DIR$/springMVC-003-Ajax.iml" />
     </modules>
   </component>
 </project>
