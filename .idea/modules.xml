@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/springMVC-001-demo.iml" filepath="$PROJECT_DIR$/springMVC-001-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC-002-data-submit/springMVC-002-data-submit.iml" filepath="$PROJECT_DIR$/springMVC-002-data-submit/springMVC-002-data-submit.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC-003-Ajax.iml" filepath="$PROJECT_DIR$/springMVC-003-Ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC-004-jump.iml" filepath="$PROJECT_DIR$/springMVC-004-jump.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC-005-param/springMVC-005-param.iml" filepath="$PROJECT_DIR$/springMVC-005-param/springMVC-005-param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC-006-webinfo.iml" filepath="$PROJECT_DIR$/springMVC-006-webinfo.iml" />
     </modules>
   </component>
 </project>

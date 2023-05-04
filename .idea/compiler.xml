@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springMVC-004-jump" />
+        <module name="springMVC-005-param" />
         <module name="springMVC-001-demo" />
         <module name="springMVC-003-Ajax" />
         <module name="springMVC-002-data-submit" />
+        <module name="springMVC-006-webinfo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
