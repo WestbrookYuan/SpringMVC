@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/spring-005-param/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC-005-param/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC-006-webinfo/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC-007-SSM-integrated/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
