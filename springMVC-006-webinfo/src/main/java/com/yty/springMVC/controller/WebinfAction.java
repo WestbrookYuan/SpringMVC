@@ -38,6 +38,8 @@ public class WebinfAction {
         else {
             request.setAttribute("msg", "verified failed");
             return "login";
+
+            ///ssbsb
         }
 
     }
